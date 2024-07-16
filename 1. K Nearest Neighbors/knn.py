@@ -6,7 +6,8 @@ import pickle
 from sklearn import model_selection
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
-from MNIST_Dataset_Loader.mnist_loader import MNIST
+# from MNIST_Dataset_Loader.mnist_loader import MNIST
+from mnist_loader import MNIST
 import matplotlib.pyplot as plt
 from matplotlib import style
 style.use('ggplot')
